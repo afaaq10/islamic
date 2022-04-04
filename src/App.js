@@ -305,7 +305,7 @@ function App() {
 
             </tbody>
           </table>
-          <Link to="/Profile">See the Rak'at and corresponding Surah</Link>
+          <Link to="/Profile" style={{ display: "none", color: "white" }}>See the Rak'at and corresponding Surah</Link>
 
 
           {/* <button type="button" onClick={click} class="btn btn-primary p-1">First two</button> */}
