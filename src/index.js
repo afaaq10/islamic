@@ -7,7 +7,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <BrowserRouter>
+
+
+  <BrowserRouter basename={window.location.pathname || ''}>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="Profile" element={<Profile />} />
