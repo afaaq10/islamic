@@ -161,7 +161,7 @@ function App() {
 
 
                 </div></td>
-                <td id="text" style={{ display: "none", color: "white" }}>completed</td>
+                <td id="text" style={{ display: "none", color: "blue" }}>completed</td>
 
               </tr>
               <tr>
@@ -175,7 +175,7 @@ function App() {
 
 
                 </div></td>
-                <td id="text2" style={{ display: "none", color: "white" }}>completed</td>
+                <td id="text2" style={{ display: "none", color: "blue" }}>completed</td>
 
               </tr>
               <tr>
@@ -189,7 +189,7 @@ function App() {
 
 
                 </div></td>
-                <td id="text3" style={{ display: "none", color: "white" }}>completed</td>
+                <td id="text3" style={{ display: "none", color: "blue" }}>completed</td>
 
               </tr>
               <tr>
@@ -203,7 +203,7 @@ function App() {
 
 
                 </div></td>
-                <td id="text4" style={{ display: "none", color: "white" }}>completed</td>
+                <td id="text4" style={{ display: "none", color: "blue" }}>completed</td>
 
               </tr>
               <tr>
@@ -217,7 +217,7 @@ function App() {
 
 
                 </div></td>
-                <td id="text5" style={{ display: "none", color: "white" }}>completed</td>
+                <td id="text5" style={{ display: "none", color: "blue" }}>completed</td>
 
               </tr>
               <tr>
@@ -231,7 +231,7 @@ function App() {
 
 
                 </div></td>
-                <td id="text6" style={{ display: "none", color: "white" }}>completed</td>
+                <td id="text6" style={{ display: "none", color: "blue" }}>completed</td>
 
               </tr>
               <tr>
@@ -245,7 +245,7 @@ function App() {
 
 
                 </div></td>
-                <td id="text7" style={{ display: "none", color: "white" }}>completed</td>
+                <td id="text7" style={{ display: "none", color: "blue" }}>completed</td>
 
               </tr>
               <tr>
@@ -259,7 +259,7 @@ function App() {
 
 
                 </div></td>
-                <td id="text8" style={{ display: "none", color: "white" }}>completed</td>
+                <td id="text8" style={{ display: "none", color: "blue" }}>completed</td>
 
               </tr>
               <tr>
@@ -273,7 +273,7 @@ function App() {
 
 
                 </div></td>
-                <td id="text9" style={{ display: "none", color: "white" }}>completed</td>
+                <td id="text9" style={{ display: "none", color: "blue" }}>completed</td>
 
               </tr>
               <tr>
