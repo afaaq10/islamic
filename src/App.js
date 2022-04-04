@@ -133,23 +133,17 @@ function App() {
 
 
 
-        <div className="first" style={{
-          backgroundImage: "url('https://i.pinimg.com/originals/0d/95/e1/0d95e179279ca2f6f31b7a12342df1f5.jpg')", height: '80vh',
-
-
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat'
-        }}>
+        <div className="first">
 
 
 
 
 
-          <table class="table" style={{ color: "white" }}>
-            <thead style={{ color: "white" }}>
+          <table class="table" >
+            <thead >
               <tr>
-                <th scope="col">No.</th>
-                <th scope="col">Surah</th>
+                <th scope="col">Surah no.</th>
+                <th scope="col">Name of surah</th>
                 <th scope="col">Checks</th>
                 <th scope="col">Remainder</th>
 
@@ -293,7 +287,7 @@ function App() {
 
 
                 </div></td>
-                <td id="text10" style={{ display: "none", color: "white" }}>completed</td>
+                <td id="text10" style={{ display: "none", color: "blue" }}>completed</td>
 
               </tr>
 
@@ -305,7 +299,7 @@ function App() {
 
             </tbody>
           </table>
-          <Link to="/Profile" style={{ display: "none", color: "white" }}>See the Rak'at and corresponding Surah</Link>
+          <Link to="/Profile">See the Rak'at and corresponding Surah</Link>
 
 
           {/* <button type="button" onClick={click} class="btn btn-primary p-1">First two</button> */}
