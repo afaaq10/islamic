@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/islamic/static/css/main.1de87fb9.css",
-    "main.js": "/islamic/static/js/main.97c43e8a.js",
+    "main.js": "/islamic/static/js/main.872ce54d.js",
     "static/js/787.6a7ee808.chunk.js": "/islamic/static/js/787.6a7ee808.chunk.js",
     "index.html": "/islamic/index.html",
     "main.1de87fb9.css.map": "/islamic/static/css/main.1de87fb9.css.map",
-    "main.97c43e8a.js.map": "/islamic/static/js/main.97c43e8a.js.map",
+    "main.872ce54d.js.map": "/islamic/static/js/main.872ce54d.js.map",
     "787.6a7ee808.chunk.js.map": "/islamic/static/js/787.6a7ee808.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1de87fb9.css",
-    "static/js/main.97c43e8a.js"
+    "static/js/main.872ce54d.js"
   ]
 }
