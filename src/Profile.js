@@ -29,40 +29,74 @@ function Profile() {
         setdr("Al-kaafirun")
 
     }
+    const six = () => {
+
+        setdr("iza-jaa")
+
+    }
+    const seven = () => {
+
+        setdr("Al-lahab")
+
+    }
+    const eight = () => {
+
+        setdr("Al-ahad")
+
+    }
+    const nine = () => {
+
+        setdr("Al-falak")
+
+    }
+    const ten = () => {
+
+        setdr("Al-naas")
+
+    }
 
 
 
     return (
         <>
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle mt-2 " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Select Rak'at
+
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col" >Rak'at</th>
+                        <th scope="col" >Surah Name</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <div class="dropdown">
+                                <button class="btn btn-primary dropdown-toggle p-0 " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Select Rak'at
   </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><button onClick={one} >1</button></li>
-                    <li><button onClick={two}>2</button></li>
-                    <li><button onClick={three}>3</button></li>
-                    <li><button onClick={four}>4</button></li>
-                    <li><button onClick={five}>5</button></li>
+                                <ul class="dropdown-menu p-2 " aria-labelledby="dropdownMenuButton1"
+                                    style={{ "min-width": "1rem", "backgroundColor": "none" }}>
+                                    <li style={{ "margin": "2px" }}><button onClick={one} >1</button></li>
+                                    <li style={{ "margin": "2px" }}><button onClick={two}>2</button></li>
+                                    <li style={{ "margin": "2px" }}><button onClick={three}>3</button></li>
+                                    <li style={{ "margin": "2px" }}><button onClick={four}>4</button></li>
+                                    <li style={{ "margin": "2px" }}><button onClick={five}>5</button></li>
+                                    <li style={{ "margin": "2px" }}><button onClick={six}>6</button></li>
+                                    <li style={{ "margin": "2px" }}><button onClick={seven}>7</button></li>
+                                    <li style={{ "margin": "2px" }}><button onClick={eight}>8</button></li>
+                                    <li style={{ "margin": "2px" }}><button onClick={nine}>9</button></li>
+                                    <li style={{ "margin": "2px" }}><button onClick={ten}>10</button></li>
 
-                </ul>
+                                </ul>
+                            </div>
+                        </th>
+                        <td style={{ color: "white", "font-weight": "bold" }}> {dr}</td>
 
+                    </tr>
 
-            </div>
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <p style={{ color: "blue" }}>Surah: {dr}</p>
-                    <div class="carousel-item active ">
-                        <img src="https://media.istockphoto.com/photos/ramadan-kareem-lantern-and-dates-fruit-with-city-light-background-picture-id1305026622?b=1&k=20&m=1305026622&s=170667a&w=0&h=EEqBsXLytjJGv5oQaxnGB19SnFhgj-c7z30FLgmwZiQ=" class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="https://media.istockphoto.com/vectors/ramadan-kareem-with-golden-ornate-crescent-and-islamic-line-mosque-vector-id1141484214?k=20&m=1141484214&s=612x612&w=0&h=ejf5U9Gu46Jswm2USWlufTd5HoY10A_HSAUogE8zgoc=" class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="https://c0.wallpaperflare.com/preview/1019/493/70/ramadan-ramadhan-night-religious.jpg" class="d-block w-100" alt="..." />
-                    </div>
-                </div>
-            </div>
+                </tbody>
+            </table>
 
 
 
