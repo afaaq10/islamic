@@ -142,8 +142,8 @@ function App() {
           <table class="table table-dark table-striped" >
             <thead >
               <tr>
-                <th scope="col">Surah no.</th>
-                <th scope="col">Name of surah</th>
+                <th scope="col">No.</th>
+                <th scope="col">Surah</th>
                 <th scope="col">Checks</th>
                 <th scope="col">Remainder</th>
 
