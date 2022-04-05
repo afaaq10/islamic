@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import './App.css';
 import Profile from './Profile.js';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 function App() {
 
 
@@ -27,9 +27,7 @@ function App() {
   const [bt, setbt] = useState(false);
 
 
-  useEffect(() => {
-    alert('Welcome Imam Sahab! Click on the OK button')
-  }, []);
+
 
 
   function check() {
@@ -134,8 +132,10 @@ function App() {
 
 
         <div className="first">
-
-
+          <div class="alert alert-primary alert-dismissible fade show mt-2" role="alert">
+            <strong>Welcome! </strong> Click the checkbox on completion of Rak'at.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
 
 
 
