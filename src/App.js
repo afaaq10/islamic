@@ -2,10 +2,29 @@
 
 
 import React from 'react'
+// import afaaq from "./afaaq.txt"
 
 const App = () => {
+
+console.log("I am outside the fetch function")
+
+const Fetch=()=>{
+   console.log("Before then")
+fetch( " https://api.github.com/users/imtiyazkumar/following").
+then((response)=> response.json()).
+then((data)=>console.log(data))
+console.log("after then")
+console.log(2*2)
+
+}
+console.log("I am outside the fetch function and at the bottom")
+
   return (
-    <div>App</div>
+    <>  
+    <div></div>
+    
+    <button onClick={Fetch}>Fetch content</button>
+    </>
   )
 }
 
