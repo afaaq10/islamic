@@ -16,8 +16,6 @@ console.log("after then")
 
 }
 
-
-
   return (
     <>  
     <div></div>
