@@ -8,7 +8,7 @@ const App = () => {
 
 
 const Fetch=()=>{
-   console.log("Before then")
+console.log("Before then")
 fetch( " https://api.github.com/users/imtiyazkumar/following").
 then((response)=> response.json()).
 then((data)=>console.log(data))
