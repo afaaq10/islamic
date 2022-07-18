@@ -1,26 +1,236 @@
-// Practicing async-await,fetch and promises
-
-
 import React from 'react'
 // import afaaq from "./afaaq.txt"
 
 const App = () => {
 
+// Using fetch Api.......................................
 
-const Fetch=()=>{
-console.log("Before then")
-fetch( " https://api.github.com/users/imtiyazkumar/following").
-then((response)=> response.json()).
-then((data)=>console.log(data))
-console.log("after then")
+// const Fetch=()=>{
+// console.log("Before then")
+// fetch( " https://api.github.com/users/imtiyazkumar/following").
+// then((response)=> response.json()).
+// then((data)=>console.log(data))
+// console.log("after then")
+// }
 
-}
+
+
+// Using async/await........................................
+
+
+
+    // async function second() {
+    
+    //     const ab= await fetch( afaaq)
+    //     const d= await ab.text()
+    //     return d
+    // } 
+    // let a=second();
+
+// In return at bottom, we have a div with "then" corresponding to the async/await when promise is resolved
+
+
+// const copiedVar=`{
+//     "word": "example",
+//     "results": [
+//       {
+//         "definition": "a representative form or pattern",
+//         "partOfSpeech": "noun",
+//         "synonyms": [
+//           "model"
+//         ],
+//         "typeOf": [
+//           "representation",
+//           "internal representation",
+//           "mental representation"
+//         ],
+//         "hasTypes": [
+//           "prefiguration",
+//           "archetype",
+//           "epitome",
+//           "guide",
+//           "holotype",
+//           "image",
+//           "loadstar",
+//           "lodestar",
+//           "microcosm",
+//           "original",
+//           "paradigm",
+//           "pilot",
+//           "prototype",
+//           "template",
+//           "templet",
+//           "type specimen"
+//         ],
+//         "derivation": [
+//           "exemplify"
+//         ],
+//         "examples": [
+//           "I profited from his example"
+//         ]
+//       },
+//       {
+//         "definition": "something to be imitated",
+//         "partOfSpeech": "noun",
+//         "synonyms": [
+//           "exemplar",
+//           "good example",
+//           "model"
+//         ],
+//         "typeOf": [
+//           "ideal"
+//         ],
+//         "hasTypes": [
+//           "pacemaker",
+//           "pattern",
+//           "beauty",
+//           "prodigy",
+//           "beaut",
+//           "pacesetter"
+//         ],
+//         "derivation": [
+//           "exemplify",
+//           "exemplary"
+//         ]
+//       },
+//       {
+//         "definition": "an occurrence of something",
+//         "partOfSpeech": "noun",
+//         "synonyms": [
+//           "case",
+//           "instance"
+//         ],
+//         "typeOf": [
+//           "happening",
+//           "natural event",
+//           "occurrence",
+//           "occurrent"
+//         ],
+//         "hasTypes": [
+//           "clip",
+//           "mortification",
+//           "piece",
+//           "time",
+//           "humiliation",
+//           "bit"
+//         ],
+//         "derivation": [
+//           "exemplify"
+//         ],
+//         "examples": [
+//           "but there is always the famous example of the Smiths"
+//         ]
+//       },
+//       {
+//         "definition": "an item of information that is typical of a class or group",
+//         "partOfSpeech": "noun",
+//         "synonyms": [
+//           "illustration",
+//           "instance",
+//           "representative"
+//         ],
+//         "typeOf": [
+//           "information"
+//         ],
+//         "hasTypes": [
+//           "excuse",
+//           "apology",
+//           "specimen",
+//           "case in point",
+//           "sample",
+//           "exception",
+//           "quintessence",
+//           "precedent"
+//         ],
+//         "derivation": [
+//           "exemplify",
+//           "exemplary"
+//         ],
+//         "examples": [
+//           "this patient provides a typical example of the syndrome",
+//           "there is an example on page 10"
+//         ]
+//       },
+//       {
+//         "definition": "punishment intended as a warning to others",
+//         "partOfSpeech": "noun",
+//         "synonyms": [
+//           "deterrent example",
+//           "lesson",
+//           "object lesson"
+//         ],
+//         "typeOf": [
+//           "monition",
+//           "admonition",
+//           "word of advice",
+//           "warning"
+//         ],
+//         "derivation": [
+//           "exemplary"
+//         ],
+//         "examples": [
+//           "they decided to make an example of him"
+//         ]
+//       },
+//       {
+//         "definition": "a task performed or problem solved in order to develop skill or understanding",
+//         "partOfSpeech": "noun",
+//         "synonyms": [
+//           "exercise"
+//         ],
+//         "typeOf": [
+//           "lesson"
+//         ],
+//         "examples": [
+//           "you must work the examples at the end of each chapter in the textbook"
+//         ]
+//       }
+//     ],
+//     "syllables": {
+//       "count": 3,
+//       "list": [
+//         "ex",
+//         "am",
+//         "ple"
+//       ]
+//     },
+//     "pronunciation": {
+//       "all": "ɪɡ'zæmpəl"
+//     },
+//     "frequency": 4.67
+//   }`
+
+
+// const newVar=JSON.parse(copiedVar)
+// let def=document.getElementById('myId')
+// let newVar2=newVar["results"]
+
+// let str="";
+// newVar2.forEach(element => {
+//     str+=`<li>${element.definition}</li>`
+
+
+// });
+// console.log(str)
+// def.innerHTML=str;
+
+
 
   return (
     <>  
-    <div></div>
-    
-    <button onClick={Fetch}>Fetch content</button>
+
+
+
+    {/* <div>
+    {
+    a.then((data)=>console.log(data))
+    }
+    </div> */}
+
+<div id='myId'>
+hello
+</div>
+
     </>
   )
 }
