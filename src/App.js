@@ -216,6 +216,16 @@ const App = () => {
 
 
 
+
+// Learning regex.....
+
+let reg=/Afaaq/;
+let str=" is a great guy Afaaq";
+let p=reg.exec(str)
+console.log(p)
+
+
+
   return (
     <>  
 
