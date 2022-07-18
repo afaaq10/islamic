@@ -219,12 +219,18 @@ const App = () => {
 
 // Learning regex.....
 
-let reg=/Afaaq/;
-let str=" is a great guy Afaaq";
-let p=reg.exec(str)
-console.log(p)
+let reg=/Afaaq/g;
+
+let str=" is a great guy Afaaq and Afaaq is greatest afaaq afaaq afaaq afaaq";
+// let p1=reg.exec(str)
+// console.log(p1)
 
 
+// let p2=reg.test(str)
+// console.log(p2)
+
+let p3=str.match(reg)
+console.log(p3)
 
   return (
     <>  
