@@ -351,8 +351,6 @@ export default App
 //             }
 //         }
 
-
-
 //         const element = ref.current;
 //         const element2 = inputRef.current.value;
 //         element.addEventListener('click', handleClick);
