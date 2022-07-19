@@ -651,10 +651,7 @@ export default App
 // //           {/* <button type="button" onClick={click} class="btn btn-primary p-1">First two</button> */}
 // //         </div>
 
-
 // //       </div>
-
-
 
 // //     </>
 
