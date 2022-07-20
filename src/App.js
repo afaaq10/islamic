@@ -292,6 +292,28 @@ const App = () => {
     // playingFunc()
 
 
+
+
+    //**************** */ Understanding the  for in loop and for of loop********************************
+
+    // let object = {
+    //     name: "Afaq",
+    //     age: 26
+    // }
+
+
+
+    // for (let key in object) {
+    //     console.log(object[key])
+    // }
+
+
+
+    //    ********                      *********** //
+
+
+
+
     return (
         <>
 
