@@ -292,8 +292,6 @@ const App = () => {
     // playingFunc()
 
 
-
-
     //**************** */ Understanding the  for in loop and for of loop********************************
 
     // let object = {
