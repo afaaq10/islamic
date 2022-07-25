@@ -47,7 +47,7 @@ const DragDrop = () => {
     }
     return (
         <>
-            <div className='picture'>Hi</div>
+
 
             <div style={{ display: 'flex' }}>
 
@@ -55,7 +55,7 @@ const DragDrop = () => {
                 {picture.map((pic) => { return <Pictures id={pic.id} image={pic.url} /> })}
             </div>
 
-            <div className='board' ref={drop}>
+            <div className='board' ref={drop} >
                 {board.map((pic) => { return <Pictures id={pic.id} image={pic.url} /> })}
 
             </div>
