@@ -797,14 +797,14 @@ const App = () => {
 
             <Routes>
 
-                <Route path="/" element={<div className="app__container">
+                <Route path="/islamic" element={<div className="app__container">
                     <Sidebar />
                     <RecommendedVideos />
 
                 </div>} />
 
 
-                <Route path="/search/:searchTerm" element={<div className="app__container">
+                <Route path="/islamic/search/:searchTerm" element={<div className="app__container">
                     <Sidebar />
                     <Search />
 
