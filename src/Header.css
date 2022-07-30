@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+.header__logo {
+  height: 30px;
+  margin-left: 20px;
+  width: 120px;
+}
+.header__input {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.header__input > input {
+  flex: 1;
+  outline: none;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+.header__icons {
+  display: flex;
+}
+.header__icon {
+  margin-right: 55px;
+}
+.input__button {
+  width: 10% !important;
+  background-color: #f8f8f8;
+  border: 1px soild lightgray;
+  color: rgba(0, 0, 0, 0.396);
+  height: 30px !important;
+}

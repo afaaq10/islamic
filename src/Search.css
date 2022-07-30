@@ -1,0 +1,19 @@
+.search__page {
+  flex: 0.8;
+  background-color: #f9f9f9;
+  padding: 10px 15px;
+  align-items: center;
+}
+.search__filter {
+  display: flex;
+}
+.search__filter > h2 {
+  color: rgb(72, 72, 72);
+
+  font-size: 25px !important;
+}
+.search__filter > .search__filtericon {
+  margin-top: 7px;
+  margin-left: 9px;
+  cursor: pointer;
+}

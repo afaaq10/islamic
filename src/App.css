@@ -1,8 +1,12 @@
-.picture{
+/* .picture{
   width:50px;
 }
 .board{
   height:400px;
   width:300px;
   border: 2px solid black;
+} */
+
+.app__container {
+  display: flex;
 }

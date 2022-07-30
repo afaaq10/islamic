@@ -1,0 +1,25 @@
+.videorow {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+.videorow > .videorow__text {
+  margin-left: 4px;
+  margin-top: -8px;
+}
+.mixedtext {
+  color: #606060;
+  font-size: 12px;
+  line-height: 4px;
+}
+
+.videorow > img {
+  width: 246px;
+  height: 138px;
+  object-fit: contain;
+}
+.description {
+  font-size: 15px;
+  color: #606060;
+  margin-top: -7px;
+}

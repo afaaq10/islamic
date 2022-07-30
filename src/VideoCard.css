@@ -1,0 +1,30 @@
+.videocard {
+  margin-bottom: 22px;
+  margin-left: 19px;
+  margin-top: 20px;
+}
+.videocard__info {
+  margin-top: 9px;
+  display: flex;
+}
+.videocard__img {
+  width: 277px;
+  height: 180px;
+}
+.lastpara {
+  margin-top: -19px;
+}
+.videocard__text {
+  margin-left: 12px;
+}
+.videocard__text > h4 {
+  font-size: 19px;
+}
+.videocard__text > p {
+  color: grey;
+  font-size: 14px;
+}
+.avatar {
+  width: 30px !important;
+  height: 30px !important;
+}
