@@ -20,7 +20,7 @@ const Header = () => {
 
             <div className="header__left">
                 <MenuIcon />
-                <Link to="/" >
+                <Link to="/islamic" >
 
                     <img className="header__logo" src={youtube} alt="" />
                 </Link>
