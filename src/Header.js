@@ -31,7 +31,7 @@ const Header = () => {
             <div className="header__input">
                 <input type="text" onChange={(e) => setinputSearch(e.target.value)} value={inputSearch} placeholder='Search' />
 
-                <Link to={`/search/${inputSearch}`} className='input__button'>
+                <Link to={`/islamic/search/${inputSearch}`} className='input__button'>
                     <SearchIcon />
                 </Link>
 
