@@ -1,7 +1,7 @@
 {
-  "main.css": "/islamic/static/css/main.58fc22bf.chunk.css",
-  "main.js": "/islamic/static/js/main.2e5755d8.chunk.js",
-  "main.js.map": "/islamic/static/js/main.2e5755d8.chunk.js.map",
+  "main.css": "/islamic/static/css/main.7ae375c3.chunk.css",
+  "main.js": "/islamic/static/js/main.fd760b3b.chunk.js",
+  "main.js.map": "/islamic/static/js/main.fd760b3b.chunk.js.map",
   "static/js/1.05b503be.chunk.js": "/islamic/static/js/1.05b503be.chunk.js",
   "static/js/1.05b503be.chunk.js.map": "/islamic/static/js/1.05b503be.chunk.js.map",
   "static/js/2.30a033b3.chunk.js": "/islamic/static/js/2.30a033b3.chunk.js",
@@ -9,8 +9,8 @@
   "runtime~main.js": "/islamic/static/js/runtime~main.4acda8c5.js",
   "runtime~main.js.map": "/islamic/static/js/runtime~main.4acda8c5.js.map",
   "static/media/youtube.svg": "/islamic/static/media/youtube.88de2bf2.svg",
-  "static/css/main.58fc22bf.chunk.css.map": "/islamic/static/css/main.58fc22bf.chunk.css.map",
+  "static/css/main.7ae375c3.chunk.css.map": "/islamic/static/css/main.7ae375c3.chunk.css.map",
   "index.html": "/islamic/index.html",
-  "precache-manifest.dbbe793c430dbecb102822266675009d.js": "/islamic/precache-manifest.dbbe793c430dbecb102822266675009d.js",
+  "precache-manifest.dddc046cebf02b5a6343e90dd597cae6.js": "/islamic/precache-manifest.dddc046cebf02b5a6343e90dd597cae6.js",
   "service-worker.js": "/islamic/service-worker.js"
 }
