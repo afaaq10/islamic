@@ -38,9 +38,9 @@ const Header = () => {
             </div>
 
             <div className="header__icons">
-                <VideoCallIcon className="header__icon" />
-                <NotificationsNoneIcon className="header__icon" />
-                <PersonIcon className="header__icon" />
+                <VideoCallIcon className="header__icon " id="video__icon" />
+                <NotificationsNoneIcon className="header__icon" id="notif__icon" />
+                <PersonIcon className="header__icon" id="person__icon" />
             </div>
 
 
