@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "47916f9d12e9eb6eb827",
-    "url": "/islamic/static/css/main.fdc8d0ec.chunk.css"
+    "revision": "acd5d75a1fff5b784a66",
+    "url": "/islamic/static/css/main.7c68721c.chunk.css"
   },
   {
-    "revision": "47916f9d12e9eb6eb827",
-    "url": "/islamic/static/js/main.47916f9d.chunk.js"
+    "revision": "acd5d75a1fff5b784a66",
+    "url": "/islamic/static/js/main.acd5d75a.chunk.js"
   },
   {
     "revision": "05b503beb4d93191790c",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/islamic/static/media/youtube.88de2bf2.svg"
   },
   {
-    "revision": "14b89902a95f9142016f76339b52106c",
+    "revision": "cc094dcd805ae85098b16253719e5c44",
     "url": "/islamic/index.html"
   }
 ];
