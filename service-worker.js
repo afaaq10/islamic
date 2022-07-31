@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/islamic/precache-manifest.6369ace8b7ba2fc99e4a857c398da440.js"
+  "/islamic/precache-manifest.afaff27562f72370673222a43f8dbe04.js"
 );
 
 workbox.clientsClaim();
