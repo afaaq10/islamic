@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/islamic/static/media/youtube.88de2bf2.svg"
   },
   {
-    "revision": "ba6c53665f933b4f2563cad568eed8f6",
+    "revision": "14b89902a95f9142016f76339b52106c",
     "url": "/islamic/index.html"
   }
 ];
